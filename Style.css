@@ -1,0 +1,52 @@
+/* Search Results */
+
+.search-results {
+
+    background: rgba(255, 255, 255, 0.95);
+
+    padding: 30px;
+
+    margin-bottom: 30px;
+
+    border-radius: 20px;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+
+.search-results h2 {
+
+    color: #5b21b6;
+
+    margin-bottom: 20px;
+}
+
+
+/* Search result cards */
+
+.search-card {
+
+    border-left: 6px solid #f59e0b;
+
+    background: linear-gradient(
+        135deg,
+        #fff7ed,
+        #f5f3ff
+    );
+}
+
+
+/* No student found */
+
+.not-found {
+
+    text-align: center;
+
+    color: #dc2626;
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+    padding: 20px;
+}

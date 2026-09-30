@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Management System</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+    <div class="container">
+
+
+        <!-- Main Heading -->
+
+        <h1>🎓 Student Management System</h1>
+
+
+
+        <!-- Add Student Section -->
+
+        <div class="form-box">
+
+            <h2>Add Student</h2>
+
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Enter student name"
+            >
+
+
+            <input
+                type="number"
+                id="age"
+                placeholder="Enter age"
+            >
+
+
+            <input
+                type="text"
+                id="branch"
+                placeholder="Enter branch"
+            >
+
+
+            <input
+                type="text"
+                id="rollNo"
+                placeholder="Enter roll number"
+            >
+
+
+            <button onclick="addStudent()">
+                Add Student
+            </button>
+
+        </div>
+
+
+
+        <!-- All Student Details -->
+
+        <div class="student-box">
+
+            <h2>Student Details</h2>
+
+
+            <div id="studentDetails">
+
+                <p class="empty">
+                    No students added yet.
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- Search Student -->
+
+        <div class="search-box">
+
+            <h2>Search Student</h2>
+
+
+            <input
+                type="text"
+                id="search"
+                placeholder="🔍 Search student..."
+                onkeyup="searchStudent()"
+            >
+
+        </div>
+
+
+
+        <!-- Search Results -->
+
+        <div class="search-results">
+
+            <h2>Search Results</h2>
+
+
+            <div id="searchStudentDetails">
+
+                <p class="empty">
+                    Search for a student above.
+                </p>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
