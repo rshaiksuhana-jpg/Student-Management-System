@@ -1,2 +1,14 @@
-# Student-Management-System
-Created by using HTML , CSS , JS.
+# Student Management System.
+
+## Description
+A beginner-friendly student management system.
+
+## Technologies
+- HTML
+- CSS
+- JavaScript
+
+## Features
+- Add students
+- Display students
+- Search students
